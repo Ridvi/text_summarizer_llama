@@ -1,0 +1,67 @@
+# -------------------------
+# Virtual environment
+# -------------------------
+myvenv/
+.env/
+.env.*
+
+
+# -------------------------
+# Python cache
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------
+# Distribution / packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+*.out
+*.err
+*.pid
+
+# Uvicorn / FastAPI temporary files
+*.db-journal
+*.sqlite3
+
+# -------------------------
+# Testing / coverage
+# -------------------------
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# -------------------------
+# IDE / editor settings
+# -------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Misc
+# -------------------------
+*.bak
+*.swp
